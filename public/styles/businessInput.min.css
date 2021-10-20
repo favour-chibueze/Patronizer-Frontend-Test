@@ -1,0 +1,40 @@
+.form-container .radio-button-container p {
+  font-size: 12px;
+  font-weight: 500; }
+
+.form-container .radio-button-container .radio-button {
+  display: inline-block;
+  margin: 5px 35px 0px 0px; }
+  .form-container .radio-button-container .radio-button label {
+    border: none;
+    border-radius: 8px;
+    color: #141737;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer; }
+    .form-container .radio-button-container .radio-button label span {
+      height: 100%;
+      width: 100%;
+      border-radius: 8px;
+      padding: 14px 30px;
+      background: #f5f6fa;
+      border: 1px solid rgba(20, 23, 55, 0.1);
+      display: inline-block;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: inset; }
+    .form-container .radio-button-container .radio-button label input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer; }
+      .form-container .radio-button-container .radio-button label input:checked ~ span {
+        background: #dceaff;
+        border: 1px solid #006aff;
+        padding: 14px 30px;
+        height: 100%;
+        width: 100%;
+        content: "checked";
+        color: #141737;
+        display: inline-block;
+        font-weight: bold; }

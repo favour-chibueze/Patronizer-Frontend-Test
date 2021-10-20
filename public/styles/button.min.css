@@ -1,0 +1,27 @@
+button {
+  padding: 14px 30px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer; }
+  button.danger {
+    background: #ff6774; }
+  button.primary {
+    background: #006aff; }
+  button.secondary {
+    background: #f5f6fa;
+    border: 1px solid rgba(20, 23, 55, 0.1);
+    border-radius: 10px;
+    color: #141737; }
+    button.secondary.active {
+      border: 1px solid #006aff;
+      background: #dceaff; }
+
+.btn-flex-end {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 13px;
+  margin-bottom: 45px; }

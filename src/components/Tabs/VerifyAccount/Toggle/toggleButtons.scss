@@ -1,0 +1,16 @@
+.collapsible {
+  display: none;
+}
+
+.collapsible.open {
+  display: block;
+}
+
+.toggle-section {
+  ul {
+    list-style: none;
+    button {
+      margin: 5px 35px 0px 0px;
+    }
+  }
+}

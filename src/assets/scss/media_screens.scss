@@ -1,0 +1,50 @@
+@media (max-width: 599px) {
+  .bg-image-container,
+  header {
+    display: none;
+  }
+  .body-container {
+    padding: 35px 22px 0px 22px;
+  }
+  button {
+    padding: 11px 19px;
+  }
+  .toggle-section {
+    ul {
+      button {
+        margin: 5px 11px 0px 0px;
+      }
+    }
+  }
+  .accordion-heading {
+    .accordion-body {
+      .arrow {
+        right: 0;
+      }
+    }
+  }
+  .form {
+    input {
+      .min-width {
+        width: 100%;
+      }
+    }
+  }
+  .form-container {
+    display: block;
+    .icon-container {
+      .icon {
+        top: 57%;
+      }
+    }
+  }
+  ul.inline {
+    // visibility: hidden;
+    // display: none;
+  }
+  .mobile,
+  ul.inline li .checkbox,
+  ul.inline li .index-icon.disabled {
+    display: none;
+  }
+}

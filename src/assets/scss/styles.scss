@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("../../components/BackgroundImage/background.scss");
+@import url("../../components/Body/body.scss");
+@import url("../../components/Header/header.scss");
+@import url("/public/styles/tabs.min.css");
+@import url("/public/styles/verifyAccount.min.css");
+@import url("/public/styles/formInput.min.css");
+@import url("/public/styles/button.min.css");
+@import url("/public/styles/toggleButtons.min.css");
+@import url("/public/styles/accordion.min.css");
+@import url("/public/styles/businessInput.min.css");
+@import 'media_screens';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.App {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.icon-container {
+  position: relative;
+  .icon {
+    color: #7d8da7;
+    position: absolute;
+    top: 71%;
+    bottom: 0;
+    left: 17px;
+    &.abeg-tag {
+      top: 56%;
+    }
+  }
+  input[type="text"] {
+    padding: 14px 0px 14px 36px;
+  }
+}
+
+.fa-lock {
+  color: #006aff;
+}
+
+.mt-3 {
+  margin-top: 26px;
+}

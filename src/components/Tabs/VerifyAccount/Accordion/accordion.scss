@@ -1,0 +1,95 @@
+// @import "https://static.fontawesome.com/css/fontawesome-app.css";
+
+.accordion {
+  margin: 28px 0 48px 0;
+  border-radius: 5px;
+  background-color: #e9eef4;
+  font-family: "DM Sans", sans-serif;
+  &-heading {
+    margin: 0;
+    background-color: #e9eef4;
+    font-size: 1.2em;
+    .accordion-body {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding: 23px 25px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #141737;
+      text-decoration: none;
+      cursor: pointer;
+      span {
+        margin-right: 15px;
+      }
+      .arrow {
+        position: absolute;
+        -webkit-font-smoothing: antialiased;
+        right: 36px;
+        top: 24px;
+        display: block;
+        width: 24px;
+        height: 2px;
+        span {
+          right: 22px;
+          position: absolute;
+        }
+      }
+
+      &:before {
+        top: 50%;
+      }
+    }
+  }
+
+  &-content {
+    overflow: hidden;
+    height: 0;
+
+    .accordion-open & {
+      height: auto;
+    }
+  }
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #e9eef4;
+  &-item {
+    padding: 0px 61px 16px;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  &:last-child {
+    div {
+      padding-bottom: 16px;
+    }
+    span {
+      margin-right: 5px;
+    }
+  }
+}
+
+.data {
+  margin-top: 7px;
+  color: #141737;
+  opacity: 0.7;
+  &-second {
+    margin-top: 11px;
+  }
+  span {
+    margin-right: 6px;
+  }
+  &:nth-last-child(1) {
+    border-bottom: 1px solid #a5b4cb;
+    padding-bottom: 13px;
+  }
+}
+.accordion-open {
+  margin-top: 28px;
+  .chevron-up {
+    transform: rotate(180deg);
+  }
+}
