@@ -9,8 +9,7 @@
 @import url("/public/styles/toggleButtons.min.css");
 @import url("/public/styles/accordion.min.css");
 @import url("/public/styles/businessInput.min.css");
-@import 'media_screens';
-
+@import "media_screens";
 
 * {
   margin: 0;
@@ -24,6 +23,7 @@ body {
 
 .App {
   display: flex;
+  height: 100vh;
 }
 
 .d-block {

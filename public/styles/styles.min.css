@@ -176,7 +176,7 @@ button {
   display: flex;
   justify-content: flex-end;
   margin-top: 13px;
-  margin-bottom: 45px; }
+  padding-bottom: 25px; }
 .collapsible {
   display: none; }
 
@@ -315,6 +315,8 @@ button {
     display: block; }
     .form-container .icon-container .icon {
       top: 57%; }
+  ul.inline {
+    border-bottom: none; }
   .mobile,
   ul.inline li .checkbox,
   ul.inline li .index-icon.disabled {
@@ -329,7 +331,8 @@ body {
   font-family: "DM Sans", sans-serif; }
 
 .App {
-  display: flex; }
+  display: flex;
+  height: 100vh; }
 
 .d-block {
   display: block; }
