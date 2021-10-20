@@ -24,7 +24,7 @@
     }
   }
   .form input[type="text"].min-width {
-      width: 100%;
+    width: 100%;
   }
   .form-container {
     display: block;
@@ -38,9 +38,7 @@
     // visibility: hidden;
     border-bottom: none;
   }
-  .mobile,
-  ul.inline li .checkbox,
-  ul.inline li .index-icon.disabled {
+  .mobile {
     display: none;
   }
 }
