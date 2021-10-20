@@ -23,12 +23,8 @@
       }
     }
   }
-  .form {
-    input {
-      .min-width {
-        width: 100%;
-      }
-    }
+  .form input[type="text"].min-width {
+      width: 100%;
   }
   .form-container {
     display: block;

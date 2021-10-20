@@ -309,7 +309,7 @@ button {
     margin: 5px 11px 0px 0px; }
   .accordion-heading .accordion-body .arrow {
     right: 0; }
-  .form input .min-width {
+  .form input[type="text"].min-width {
     width: 100%; }
   .form-container {
     display: block; }
@@ -332,7 +332,7 @@ body {
 
 .App {
   display: flex;
-  height: 100vh; }
+  min-height: 100vh; }
 
 .d-block {
   display: block; }
