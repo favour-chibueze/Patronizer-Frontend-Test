@@ -1,1 +1,6 @@
-.bg-image-container{background:#f3e8c9;width:calc(100% - 44%);display:flex;justify-content:center;align-items:center}
+.bg-image-container {
+  background: #f3e8c9;
+  width: calc(100% - 44%);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
