@@ -177,6 +177,8 @@ button {
   justify-content: flex-end;
   margin-top: 13px;
   padding-bottom: 25px; }
+  .btn-flex-end .primary {
+    margin-right: 0; }
 .collapsible {
   display: none; }
 
