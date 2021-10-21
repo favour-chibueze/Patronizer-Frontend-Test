@@ -29,7 +29,7 @@ class Accordion extends React.Component {
                         </span>
                         Why we need your BVN ?
                         <div className="arrow">
-                          <span>{!this.state.open !== open ? 'show' : 'hide' }</span>
+                          <span>{this.state.open ? 'hide' : 'show' }</span>
                             <FontAwesomeIcon icon={faChevronUp} className="chevron-up"/>
                         </div>
                     </div>

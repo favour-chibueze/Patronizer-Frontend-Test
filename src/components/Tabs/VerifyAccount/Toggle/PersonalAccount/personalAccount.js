@@ -68,10 +68,9 @@ class PersonalAccount extends React.Component {
       } = this.state;
       return (
         <React.Fragment>
-          {submitted ? (
-            ''
-          ) : (
-            <React.Fragment>
+          {
+            !submitted && (
+              <React.Fragment>
                <div className="form-container">
                   <FormInput
                         label="Account Number"
@@ -83,7 +82,7 @@ class PersonalAccount extends React.Component {
                         required
                     />
                     <SelectBox 
-                    // label="Test"
+                      label="Select Bank"
                       defaultValue={bankName}
                       arrayOfData={arrayOfData}
                       onChange={this.handleChange}
@@ -98,7 +97,8 @@ class PersonalAccount extends React.Component {
                   />
               </div>
             </React.Fragment>
-          )}
+            )
+          }
         </React.Fragment>
       );
     }
